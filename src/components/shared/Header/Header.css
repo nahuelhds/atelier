@@ -1,0 +1,18 @@
+header {
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: baseline;
+  padding: 1em;
+  position: fixed;
+  z-index: 100;
+}
+
+header :first-child {
+  margin-right: 7px;
+  margin-bottom: 2px;
+}
+
+header .logo-svg {
+  margin-left: auto;
+}
