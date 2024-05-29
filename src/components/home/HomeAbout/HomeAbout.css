@@ -53,17 +53,3 @@
   width: 150px;
   margin-bottom: 3em;
 }
-
-.home-about .about-text-box {
-  text-align: end;
-  width: 70%;
-  align-self: flex-end;
-  margin-bottom: 3em;
-}
-
-.home-about .about-text-box#second-text-box {
-  text-align: start;
-  width: 70%;
-  align-self: flex-start;
-  margin-bottom: 6em;
-}

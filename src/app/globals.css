@@ -30,13 +30,14 @@ h3 {
   margin-bottom: 1em;
 }
 
-.fondo {
-  width: 100vw;
-  height: 100vh;
-  background-image: url("../../public/mobile/home/home_img.webp");
-  background-size: cover;
-  background-position: center;
+.img-box {
   position: fixed;
   top: 0;
   z-index: 1;
+  width: 100vw;
+  height: 100vh;
+}
+
+.img-box .next-img {
+  object-fit: cover;
 }

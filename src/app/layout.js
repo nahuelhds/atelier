@@ -1,6 +1,10 @@
 import { Inter } from "next/font/google";
 import "./globals.css";
-import { Header } from "app/components/shared/Header"
+import "app/sass/globals.sass";
+import { Header } from "app/components/shared/Header";
+
+
+/// CARGAR LOCAL FONTS
 
 const inter = Inter({ subsets: ["latin"] });
 
